@@ -16,17 +16,9 @@ To do so, you need to run `pnpm publish` manually for the very first time to cre
 
 Then for the future releases, you can run `pnpm run release` to do the release and the GitHub Actions will take care of the release process.
 
-## Sponsors
-
-<p align="center">
-  <a href="https://cdn.jsdelivr.net/gh/antfu/static/sponsors.svg">
-    <img src="https://cdn.jsdelivr.net/gh/antfu/static/sponsors.svg" alt="Sponsors"/>
-  </a>
-</p>
-
 ## License
 
-[MIT](./LICENSE) License © [Anthony Fu](https://github.com/antfu)
+[MIT](./LICENSE) License © [leiwang](https://github.com/l246804)
 
 <!-- Badges -->
 
@@ -36,7 +28,7 @@ Then for the future releases, you can run `pnpm run release` to do the release a
 [npm-downloads-href]: https://npmx.dev/package/pkg-placeholder
 [bundle-src]: https://img.shields.io/bundlephobia/minzip/pkg-placeholder?style=flat&colorA=080f12&colorB=1fa669&label=minzip
 [bundle-href]: https://bundlephobia.com/result?p=pkg-placeholder
-[license-src]: https://img.shields.io/github/license/antfu/pkg-placeholder.svg?style=flat&colorA=080f12&colorB=1fa669
-[license-href]: https://github.com/antfu/pkg-placeholder/blob/main/LICENSE
+[license-src]: https://img.shields.io/github/license/l246804/starter-ts.svg?style=flat&colorA=080f12&colorB=1fa669
+[license-href]: https://github.com/l246804/starter-ts/blob/main/LICENSE
 [jsdocs-src]: https://img.shields.io/badge/jsdocs-reference-080f12?style=flat&colorA=080f12&colorB=1fa669
 [jsdocs-href]: https://www.jsdocs.io/package/pkg-placeholder

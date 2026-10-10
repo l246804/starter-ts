@@ -2,109 +2,150 @@
   "version": 3,
   "skills": {},
   "remote": {
-    "agent-browser": {
-      "package": "@antfu/skills",
-      "source": "vercel-labs/agent-browser"
-    },
     "antfu": {
-      "package": "@antfu/skills",
-      "source": "antfu/skills"
+      "package": ".",
+      "source": "antfu/skills",
+      "ref": "feb0f3aba6566426f12230e7fc7a10d97c1293bb"
     },
-    "antfu-create-pr": {
-      "package": "@antfu/skills",
-      "source": "antfu/skills"
+    "ask-matt": {
+      "package": ".",
+      "source": "mattpocock/skills/skills/engineering",
+      "ref": "24fe0ef7737efae15c87225755e9f6f5965e4888"
     },
     "code-review": {
-      "package": "@antfu/skills",
-      "source": "mattpocock/skills"
+      "package": ".",
+      "source": "mattpocock/skills/skills/engineering",
+      "ref": "24fe0ef7737efae15c87225755e9f6f5965e4888"
     },
     "codebase-design": {
-      "package": "@antfu/skills",
-      "source": "mattpocock/skills"
+      "package": ".",
+      "source": "mattpocock/skills/skills/engineering",
+      "ref": "24fe0ef7737efae15c87225755e9f6f5965e4888"
     },
-    "create-adaptable-composable": {
-      "package": "@antfu/skills",
-      "source": "vuejs-ai/skills"
+    "diagnosing-bugs": {
+      "package": ".",
+      "source": "mattpocock/skills/skills/engineering",
+      "ref": "24fe0ef7737efae15c87225755e9f6f5965e4888"
     },
-    "dry-refactoring": {
-      "package": "@antfu/skills",
-      "source": "kucherenko/jscpd/skills/dry-refactoring"
+    "domain-modeling": {
+      "package": ".",
+      "source": "mattpocock/skills/skills/engineering",
+      "ref": "24fe0ef7737efae15c87225755e9f6f5965e4888"
     },
     "frontend-design": {
-      "package": "@antfu/skills",
-      "source": "anthropics/skills/skills/frontend-design"
+      "package": ".",
+      "source": "anthropics/skills/skills/frontend-design",
+      "ref": "dbd4588f9e1033efb41dad4bef2f7947c8993d44"
     },
     "grill-me": {
-      "package": "@antfu/skills",
-      "source": "mattpocock/skills"
+      "package": ".",
+      "source": "mattpocock/skills/skills/productivity",
+      "ref": "24fe0ef7737efae15c87225755e9f6f5965e4888"
+    },
+    "grill-with-docs": {
+      "package": ".",
+      "source": "mattpocock/skills/skills/engineering",
+      "ref": "24fe0ef7737efae15c87225755e9f6f5965e4888"
     },
     "grilling": {
-      "package": "@antfu/skills",
-      "source": "mattpocock/skills"
+      "package": ".",
+      "source": "mattpocock/skills/skills/productivity",
+      "ref": "24fe0ef7737efae15c87225755e9f6f5965e4888"
     },
     "handoff": {
-      "package": "@antfu/skills",
-      "source": "mattpocock/skills"
+      "package": ".",
+      "source": "mattpocock/skills/skills/productivity",
+      "ref": "24fe0ef7737efae15c87225755e9f6f5965e4888"
     },
-    "i-have-adhd": {
-      "package": "@antfu/skills",
-      "source": "ayghri/i-have-adhd"
+    "implement": {
+      "package": ".",
+      "source": "mattpocock/skills/skills/engineering",
+      "ref": "24fe0ef7737efae15c87225755e9f6f5965e4888"
     },
-    "improve": {
-      "package": "@antfu/skills",
-      "source": "shadcn/improve"
+    "implement-spec": {
+      "package": ".",
+      "source": "mattpocock/skills/skills/engineering",
+      "ref": "24fe0ef7737efae15c87225755e9f6f5965e4888"
     },
-    "nuxt-modules": {
-      "package": "@antfu/skills",
-      "source": "onmax/nuxt-skills"
+    "improve-codebase-architecture": {
+      "package": ".",
+      "source": "mattpocock/skills/skills/engineering",
+      "ref": "24fe0ef7737efae15c87225755e9f6f5965e4888"
+    },
+    "pr": {
+      "package": ".",
+      "source": "mattpocock/skills/skills/engineering",
+      "ref": "24fe0ef7737efae15c87225755e9f6f5965e4888"
+    },
+    "prototype": {
+      "package": ".",
+      "source": "mattpocock/skills/skills/engineering",
+      "ref": "24fe0ef7737efae15c87225755e9f6f5965e4888"
     },
     "research": {
-      "package": "@antfu/skills",
-      "source": "mattpocock/skills"
+      "package": ".",
+      "source": "mattpocock/skills/skills/engineering",
+      "ref": "24fe0ef7737efae15c87225755e9f6f5965e4888"
     },
-    "simple-english": {
-      "package": "@antfu/skills",
-      "source": "AminBlg/SimpleEnglish"
+    "retro": {
+      "package": ".",
+      "source": "mattpocock/skills/skills/engineering",
+      "ref": "24fe0ef7737efae15c87225755e9f6f5965e4888"
+    },
+    "setup-matt-pocock-skills": {
+      "package": ".",
+      "source": "mattpocock/skills/skills/engineering",
+      "ref": "24fe0ef7737efae15c87225755e9f6f5965e4888"
     },
     "tdd": {
-      "package": "@antfu/skills",
-      "source": "mattpocock/skills"
+      "package": ".",
+      "source": "mattpocock/skills/skills/engineering",
+      "ref": "24fe0ef7737efae15c87225755e9f6f5965e4888"
     },
     "teach": {
-      "package": "@antfu/skills",
-      "source": "mattpocock/skills"
+      "package": ".",
+      "source": "mattpocock/skills/skills/productivity",
+      "ref": "24fe0ef7737efae15c87225755e9f6f5965e4888"
     },
     "to-questionnaire": {
-      "package": "@antfu/skills",
-      "source": "mattpocock/skills"
+      "package": ".",
+      "source": "mattpocock/skills/skills/productivity",
+      "ref": "24fe0ef7737efae15c87225755e9f6f5965e4888"
     },
-    "unslop": {
-      "package": "@antfu/skills",
-      "source": "cursor/plugins/pstack/skills/unslop"
+    "to-spec": {
+      "package": ".",
+      "source": "mattpocock/skills/skills/engineering",
+      "ref": "24fe0ef7737efae15c87225755e9f6f5965e4888"
     },
-    "vue-best-practices": {
-      "package": "@antfu/skills",
-      "source": "vuejs-ai/skills"
+    "to-tickets": {
+      "package": ".",
+      "source": "mattpocock/skills/skills/engineering",
+      "ref": "24fe0ef7737efae15c87225755e9f6f5965e4888"
     },
-    "vue-debug-guides": {
-      "package": "@antfu/skills",
-      "source": "vuejs-ai/skills"
+    "triage": {
+      "package": ".",
+      "source": "mattpocock/skills/skills/engineering",
+      "ref": "24fe0ef7737efae15c87225755e9f6f5965e4888"
     },
-    "vue-pinia-best-practices": {
-      "package": "@antfu/skills",
-      "source": "vuejs-ai/skills"
+    "wait-what": {
+      "package": ".",
+      "source": "mattpocock/skills/skills/productivity",
+      "ref": "24fe0ef7737efae15c87225755e9f6f5965e4888"
     },
-    "vue-router-best-practices": {
-      "package": "@antfu/skills",
-      "source": "vuejs-ai/skills"
+    "wayfinder": {
+      "package": ".",
+      "source": "mattpocock/skills/skills/engineering",
+      "ref": "24fe0ef7737efae15c87225755e9f6f5965e4888"
     },
-    "vue-testing-best-practices": {
-      "package": "@antfu/skills",
-      "source": "vuejs-ai/skills"
+    "wizard": {
+      "package": ".",
+      "source": "mattpocock/skills/skills/engineering",
+      "ref": "24fe0ef7737efae15c87225755e9f6f5965e4888"
     },
     "writing-for-agents": {
-      "package": "@antfu/skills",
-      "source": "mattpocock/skills"
+      "package": ".",
+      "source": "mattpocock/skills/skills/productivity",
+      "ref": "24fe0ef7737efae15c87225755e9f6f5965e4888"
     }
   }
 }
