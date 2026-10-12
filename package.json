@@ -75,7 +75,8 @@
     { "source": "mattpocock/skills/skills/engineering", "ref": "24fe0ef7737efae15c87225755e9f6f5965e4888" },
     { "source": "mattpocock/skills/skills/productivity", "ref": "24fe0ef7737efae15c87225755e9f6f5965e4888" },
     { "source": "antfu/skills", "ref": "feb0f3aba6566426f12230e7fc7a10d97c1293bb", "skills": ["antfu"] },
-    { "source": "anthropics/skills/skills/frontend-design", "ref": "dbd4588f9e1033efb41dad4bef2f7947c8993d44" }
+    { "source": "anthropics/skills/skills/frontend-design", "ref": "dbd4588f9e1033efb41dad4bef2f7947c8993d44" },
+    { "source": "ericlitman/open-pstack/plugins/pstack/skills", "ref": "c5c8e237c324359a3d1929037da78fe66da3d1ed", "skills": ["unslop"] }
   ],
   "simple-git-hooks": {
     "pre-commit": "pnpm i --frozen-lockfile --ignore-scripts --offline && pnpm run ci && pnpx nano-staged"
