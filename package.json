@@ -34,7 +34,7 @@
     "test": "pnpm run build && vitest",
     "typecheck": "tsc",
     "ci": "pnpm run lint && pnpm run typecheck && pnpm run knip && pnpm run test --run",
-    "prepare": "git config core.hooksPath .githooks && simple-git-hooks && skills-npm"
+    "prepare": "git config core.hooksPath .githooks && simple-git-hooks && skills experimental_sync -y"
   },
   "scripts-info": {
     "build": "Build the library for publishing",
@@ -63,7 +63,7 @@
     "nano-staged": "catalog:cli",
     "publint": "catalog:cli",
     "simple-git-hooks": "catalog:cli",
-    "skills-npm": "catalog:agentic",
+    "skills": "catalog:agentic",
     "taze": "catalog:cli",
     "tsdown": "catalog:cli",
     "tsdown-stale-guard": "catalog:testing",
