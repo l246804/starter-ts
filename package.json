@@ -33,7 +33,7 @@
     "test": "pnpm run build && vitest",
     "typecheck": "tsc",
     "ci": "pnpm run lint && pnpm run typecheck && pnpm run knip && pnpm run test --run",
-    "prepare": "git config core.hooksPath .githooks && simple-git-hooks && skills-npm"
+    "prepare": "git config core.hooksPath .githooks && simple-git-hooks && skills experimental_sync -y -a universal"
   },
   "scripts-info": {
     "build": "Build the library for publishing",
@@ -61,7 +61,7 @@
     "nano-staged": "catalog:cli",
     "publint": "catalog:cli",
     "simple-git-hooks": "catalog:cli",
-    "skills-npm": "catalog:agentic",
+    "skills": "catalog:agentic",
     "taze": "catalog:cli",
     "tsdown": "catalog:cli",
     "tsdown-stale-guard": "catalog:testing",
@@ -72,11 +72,11 @@
     "vitest": "catalog:testing"
   },
   "skills": [
-    { "source": "mattpocock/skills/skills/engineering", "ref": "24fe0ef7737efae15c87225755e9f6f5965e4888" },
-    { "source": "mattpocock/skills/skills/productivity", "ref": "24fe0ef7737efae15c87225755e9f6f5965e4888" },
-    { "source": "antfu/skills", "ref": "feb0f3aba6566426f12230e7fc7a10d97c1293bb", "skills": ["antfu"] },
-    { "source": "anthropics/skills/skills/frontend-design", "ref": "dbd4588f9e1033efb41dad4bef2f7947c8993d44" },
-    { "source": "ericlitman/open-pstack/plugins/pstack/skills", "ref": "c5c8e237c324359a3d1929037da78fe66da3d1ed", "skills": ["unslop"] }
+    { "source": "mattpocock/skills/skills/engineering" },
+    { "source": "mattpocock/skills/skills/productivity" },
+    { "source": "antfu/skills", "skills": ["antfu"] },
+    { "source": "anthropics/skills/skills/frontend-design" },
+    { "source": "ericlitman/open-pstack/plugins/pstack/skills", "skills": ["unslop"] }
   ],
   "simple-git-hooks": {
     "pre-commit": "pnpm i --frozen-lockfile --ignore-scripts --offline && pnpm run ci && pnpx nano-staged"
